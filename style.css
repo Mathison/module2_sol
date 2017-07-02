@@ -1,16 +1,7 @@
 body{
 	background-color:#E6E6FA;
 }
-#t{
-  	width:100px;
-  	height:200px;
-  	background-color: blue;
-  }
 
- #header-nav{
- 	background: #DCDCDC;
- 	border-radius:0;
- }
 /*title attribute*/
 #title{
 	text-align: center;
