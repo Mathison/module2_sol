@@ -1,0 +1,33 @@
+body{
+	background-color:#E6E6FA;
+}
+#t{
+  	width:100px;
+  	height:200px;
+  	background-color: blue;
+  }
+
+ #header-nav{
+ 	background: #DCDCDC;
+ 	border-radius:0;
+ }
+/*title attribute*/
+#title{
+	text-align: center;
+	border:1px solid black;
+	font-size: 30px;
+}
+/*small screen*/
+ @media (max-width: 767px){
+
+ }
+
+ /*middle screen*/
+ @media (min-width: 768px) and (max-width: 991px){
+
+ }
+
+ /*largest screen*/
+ @media (min-width: 992px){
+
+ }
