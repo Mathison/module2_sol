@@ -14,20 +14,101 @@ body{
 /*title attribute*/
 #title{
 	text-align: center;
-	border:1px solid black;
+	/*border:1px solid black;*/
 	font-size: 30px;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.s{
+	    /*border:1px solid black;*/
+      	text-align: left;
+      	padding: 10% 2% 3% 3%;
+}
+.sub-title{
+      	margin: 0px;
+      	padding:1% 5% 1% 5%;
+      	text-align: center;
+        border: 1px solid black;
+      	position:absolute;
+      	top:0;
+      	right:0;
+      	
+}
+#t1{
+	background-color: #ADFF2F;
+}
+
+#t2{
+	background-color: #00FFFF;
+}
+
+#t3{
+	background-color: #FFA500;
 }
 /*small screen*/
  @media (max-width: 767px){
-
+       #sec3,#sec2,#sec1{
+      	background-color: #FFFAF0;
+      	width:95%;
+      	border:1px solid black;
+      	float:left;
+      	margin-left: 2%;
+      	margin-right: 2%;
+        position: relative;
+        margin-top: 30px;
+        padding-top:0;
+      }
+      .sec .s{
+      	padding-top: 8%;
+      }
  }
 
  /*middle screen*/
  @media (min-width: 768px) and (max-width: 991px){
-
+       #sec1, #sec2{
+      	background-color: #FFFAF0;
+      	width:47%;
+      	border:1px solid black;
+      	float:left;
+      	margin-left: 1.2%;
+      	margin-right: 1.2%;
+        position: relative;
+        margin-top: 60px;
+        padding:0;
+      }
+      #sec3{
+      	background-color: #FFFAF0;
+      	width:97%;
+      	border:1px solid black;
+      	float:left;
+      	margin-left: 1.2%;
+      	margin-right: 1.2%;
+        position: relative;
+        margin-top: 30px;
+        padding-top:0;
+      }
+      #sec3 .s{
+      	padding-top: 5%;
+      }
  }
 
  /*largest screen*/
  @media (min-width: 992px){
-
+ 	  
+      #sec1, #sec2, #sec3{
+      	background-color: #FFFAF0;
+      	width:30%;
+      	border:1px solid black;
+      	float:left;
+      	margin-left: 1.2%;
+      	margin-right: 1.2%;
+        position: relative;
+        margin-top: 60px;
+        padding:0;
+      }
+      
  }
